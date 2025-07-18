@@ -1,1 +1,1 @@
-Simplu chocolate
+Simply chocolate
