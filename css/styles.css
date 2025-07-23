@@ -1,0 +1,183 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #111111;
+    background-color: #fafafa;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.11;
+letter-spacing: 0.03em;
+color:#111111;
+text-decoration: none;
+}
+
+.logo span {
+font-style: italic;
+}
+
+.menu-link {
+font-weight: 500;
+font-size: 14px; 
+color: #111111;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.hero-title {
+font-weight: 500;
+font-size: 28px;
+line-height: 1.21;
+letter-spacing: 0.03em;
+color: #fafafa;
+background-color: #111111; 
+}
+
+.button-color,
+.button-font {
+font-weight: 600;
+font-size: 14px;  
+color: #fafafa;
+cursor: pointer;
+}
+
+.hero .button-color {
+    background-color: #fd9222;
+    color: #fafafa;
+}
+
+.hero .button-color:hover {
+background-color: #fd9222;
+color: #fafafa;
+}
+
+.hero .button-color:focus {
+background-color: #fcf1e0;
+color: #fd9222;
+}
+
+
+.hero .button-font {
+    background-color: #111111;
+    color: #fafafa;
+}
+
+.hero .button-font:hover {
+    background-color: #111111;
+    color: #fafafa;
+}
+
+.hero .button-font:focus {
+    background-color: #fafafa;
+    color: #111111;
+}
+
+.benefits {
+    color: #fafafa;
+    background-color: #1e1823;
+}
+
+.title {
+font-weight: 600;
+font-size: 24px;
+line-height: 1.66;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.subtitle {
+font-weight: 600;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.02em;
+}
+
+.text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: 0.02em;
+ }
+
+.benefits .text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.sensation .title,
+.sensation .text {
+text-align: center;
+}
+
+span {
+    color: #fd9222;
+}
+
+.sensation .subtitle {
+text-transform: uppercase;
+}
+
+.made .title,
+.review .title {
+text-align: center;
+}
+
+.review .subtitle,
+.review .text {
+text-align: center;
+}
+
+.review .button-font {
+    color: #111111;
+    background-color: #fafafa;
+}
+
+.review .button-font:hover {
+    color: #111111;
+    background-color: #fafafa;
+}
+
+.review .button-font:focus {
+    color: #fafafa;
+    background-color: #fd9222;
+}
+
+.bottom {
+    background-color: #1e1823;
+    color: #fafafa;
+}
+
+.bottom .title {
+    text-transform: none;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: 0.02em;
+}
+
+.contact {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.28;
+letter-spacing: 0.02em;
+font-style: normal;
+text-align: center;
+}
+
+.contact-link {
+color: #fafafa;
+text-decoration: none;
+}
+
+.bottom .button-color {
+    background-color: #fd9222;
+}
+
+.bottom .menu-link {
+    color: #fafafa;
+}
