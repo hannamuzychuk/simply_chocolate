@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     color: #111111;
@@ -8,64 +14,88 @@ li {
     list-style-type: none;
 }
 
+.container {
+    width: 1136px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+
 .logo {
-font-weight: 700;
-font-size: 18px;
-line-height: 1.11;
-letter-spacing: 0.03em;
-color:#111111;
-text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: 0.03em;
+    color:#111111;
+    text-decoration: none;
 }
 
 .logo span {
-font-style: italic;
+    font-style: italic;
+}
+
+.header .container {
+    margin-bottom: 32px;
 }
 
 .menu-link {
-font-weight: 500;
-font-size: 14px; 
-color: #111111;
-line-height: 1.14;
-letter-spacing: 0.02em;
-text-decoration: none;
+    font-weight: 500;
+    font-size: 14px; 
+    color: #111111;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.hero .container {
+    margin-bottom: 72px;
 }
 
 .hero-title {
-font-weight: 500;
-font-size: 28px;
-line-height: 1.21;
-letter-spacing: 0.03em;
-color: #fafafa;
-background-color: #111111; 
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: 0.03em;
+    color: #fafafa;
+    background-color: #111111; 
+}
+
+.botton {
+    padding-top:32px;
+    padding-bottom: 40px;
 }
 
 .button-color,
 .button-font {
-font-weight: 600;
-font-size: 14px;  
-color: #fafafa;
-cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;  
+    color: #fafafa;
+    cursor: pointer;
 }
 
 .hero .button-color {
     background-color: #fd9222;
     color: #fafafa;
+    border-radius: 100px;
+    padding: 14px 40px;
 }
 
 .hero .button-color:hover {
-background-color: #fd9222;
-color: #fafafa;
+    background-color: #fd9222;
+    color: #fafafa;
 }
 
 .hero .button-color:focus {
-background-color: #fcf1e0;
-color: #fd9222;
+    background-color: #fcf1e0;
+    color: #fd9222;
 }
-
+ 
 
 .hero .button-font {
     background-color: #111111;
-    color: #fafafa;
+    border: 1px solid #fafafa;
+     border-radius: 100px;
+     padding: 14px 40px;
 }
 
 .hero .button-font:hover {
@@ -84,29 +114,64 @@ color: #fd9222;
 }
 
 .title {
-font-weight: 600;
-font-size: 24px;
-line-height: 1.66;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.66;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .subtitle {
-font-weight: 600;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: 0.02em;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
 }
 
 .text {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.28;
-letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: 0.02em;
  }
+
+.benefits .container {
+  margin-bottom: 72px;  
+}
 
 .benefits .text {
     color: rgba(255, 255, 255, 0.7);
+}
+
+.benefits .subtitle {
+    padding-bottom: 18px;
+    padding-top: 22px;
+}
+
+ .visually-hiden .title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.benefits .text {
+    padding-bottom: 51px;
+}
+
+.sensation .container {
+    margin-bottom: 100px;
+}
+
+.sensation .title {
+    padding-bottom: 28px;
 }
 
 .sensation .title,
@@ -122,9 +187,41 @@ span {
 text-transform: uppercase;
 }
 
+.sensation .text {
+    padding-bottom: 50px;
+}
+
+.sensation .list-item {
+    padding-bottom: 50px;
+}
+
+.sensation .list-item:nth-child(odd) {
+    background-color: #fd9222;
+}
+
+.sensation .list-item:nth-child(3) {
+    background-color: #111111;
+}
+
+.made .container {
+    margin-bottom: 100px;
+}
+
 .made .title,
 .review .title {
 text-align: center;
+}
+
+.made .title {
+    padding-bottom: 50px;
+}
+
+.made .subtitle {
+    padding-bottom: 28px;
+}
+
+.review .title {
+    padding-bottom: 50px;
 }
 
 .review .subtitle,
@@ -147,6 +244,20 @@ text-align: center;
     background-color: #fd9222;
 }
 
+.review .subtitle {
+   padding-bottom: 24px; 
+}
+
+.review .text {
+    padding-bottom: 24px;
+}
+
+.review .button-font {
+    border: 1px solid #fd9222;
+    border-radius: 100px;
+    padding: 14px 40px;
+}
+
 .bottom {
     background-color: #1e1823;
     color: #fafafa;
@@ -158,6 +269,8 @@ text-align: center;
     font-size: 28px;
     line-height: 1.21;
     letter-spacing: 0.02em;
+    padding-top: 50px;
+    padding-bottom: 78px;
 }
 
 .contact {
@@ -175,9 +288,20 @@ text-decoration: none;
 }
 
 .bottom .button-color {
+    border-radius: 100px;
+    padding: 17px 40px;
+    background-color: #fd9222;
+
+}
+
+.bottom .button-color {
     background-color: #fd9222;
 }
 
 .bottom .menu-link {
     color: #fafafa;
+}
+
+.bottom .menu {
+    padding-bottom: 50px;
 }
